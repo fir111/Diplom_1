@@ -16,7 +16,7 @@ public class BunTest {
         this.price = price;
     }
 
-    @Parameterized.Parameters(name = "Bun with name {0} has a price {1}")
+    @Parameterized.Parameters(name = "Bun with name \"{0}\" has a price \"{1}\"")
     public static Object data() {
         return new Object[][] {
                 { "", 0.5f },
